@@ -1,3 +1,3 @@
-# 백준 온라인 저지 단계별 문제 풀이
+## 알고리즘 문제풀이를 위한 python 소스코드 저장소
 
-## 매일 두 문제 이상 푸는 것을 목표로!
+Python source code repository for algorithm
