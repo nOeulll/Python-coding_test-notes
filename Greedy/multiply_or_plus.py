@@ -13,11 +13,16 @@
 # 출력 조건
 # 첫째줄에 만들어질 수 있는 가장 큰 수를 출력합니다.
 
-s = '2551208304518'
+data = input()
 
-s = s.split('0')
+result = int(data[0])
 
-print(s)
+for i in range(1, len(data)):
+  # 두 수 중에서 하나라도 '0' 혹은 '1'인 경우, 곱하기보다는 더하기 수행
+  num = int(data[i])
+  if num <= 1 or result <= 1:
+    result += num
+  else: 
+    result *= num
 
-# for i in s:
-#   s.split('0')
+print(result)
